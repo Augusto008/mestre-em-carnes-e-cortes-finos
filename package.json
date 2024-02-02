@@ -1,0 +1,44 @@
+{
+  "name": "mestre-em-carnes-e-cortes-finos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Documentação sobre açougue",
+  "author": {
+    "name": "Áquila A. A. Trindade"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "test": "test"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "core-js": "^3.8.3",
+    "sweetalert2": "^11.6.13",
+    "vue": "^3.4.15",
+    "vue-router": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/test-utils": "^2.0.0-0",
+    "@vue/vue3-jest": "^27.0.0-alpha.1",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "jest": "^27.0.5",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0"
+  },
+  "_id": "mestre-em-carnes-e-cortes-finos@1.0.0",
+  "license": "ISC",
+  "readme": "ERROR: No README data found!"
+}
