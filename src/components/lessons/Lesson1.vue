@@ -15,6 +15,11 @@
       As normas regulamentadoras (NR)
       <q cite="https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs">consistem em obrigações, direitos e deveres a serem cumpridos por empregadores e trabalhadores com o objetivo de garantir trabalho seguro e sadio, prevenindo a ocorrência de doenças e acidentes de trabalho.</q>
     </p>
+    <h3>NR 36 - SEGURANÇA E SAÚDE NO TRABALHO EM EMPRESAS DE ABATE E PROCESSAMENTO DE CARNES E DERIVADOS</h3>
+    <p>
+      O objetivo desta Norma é estabelecer os requisitos mínimos para a avaliação, controle e monitoramento dos riscos existentes nas atividades desenvolvidas na indústria de abate e processamento de carnes e derivados destinados ao consumo humano, de forma a garantir permanentemente a segurança, a saúde e a qualidade de vida no trabalho, sem prejuízo da observância do disposto nas demais Normas Regulamentadoras - NR do Ministério do Trabalho e Emprego.
+    </p>
+    
     <div class="accordion rounded mb-5 pb-5" id="nr-list">
       <h4 class="accordion-header py-3">
         Dentre as Normas Regulamentadoras que regem nosso mercado estão:
@@ -77,8 +82,12 @@
 
     .accordion-item {
 
-      .collapsed {
+      .accordion-button {
         backdrop-filter: blur(8px);
+      }
+
+      .accordion-button:focus {
+        background-image: linear-gradient(#00000064, #00000064);
       }
       
       .show {
