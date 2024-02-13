@@ -1,6 +1,12 @@
 <template>
   <div class="lesson">
-    <h1>Como Evitar Contaminação</h1>
+    <h1>Armazenamento de Carnes</h1>
+    <ul>
+      <li>Resfriamento</li>
+      <li>Congelamento</li>
+      <li>Descongelamento</li>
+      <li>Embalagens</li>
+    </ul>
   </div>
 </template>
 
