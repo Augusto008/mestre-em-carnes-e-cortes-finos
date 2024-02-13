@@ -1,5 +1,5 @@
 <template>
-  <div class="trail pb-5 mb-5">
+  <div class="trail pb-5">
     <div class="row justify-content-center my-4">
       <div class="col-auto">
         <select name="lesson" id="lesson" class="form-select" v-model="selectedLesson">
@@ -35,6 +35,11 @@
   import Lesson5 from "@/components/lessons/Lesson5.vue";
   import Lesson6 from "@/components/lessons/Lesson6.vue";
   import Lesson7 from "@/components/lessons/Lesson7.vue";
+  import Lesson8 from "@/components/lessons/Lesson8.vue";
+  import Lesson9 from "@/components/lessons/Lesson9.vue";
+  import Lesson10 from "@/components/lessons/Lesson10.vue";
+  import Lesson11 from "@/components/lessons/Lesson11.vue";
+  import Lesson12 from "@/components/lessons/Lesson12.vue";
 
   export default {
     name: "Trail",
@@ -47,6 +52,11 @@
       Lesson5,
       Lesson6,
       Lesson7,
+      Lesson8,
+      Lesson9,
+      Lesson10,
+      Lesson11,
+      Lesson12,
     },
     data() {
       return {
@@ -59,6 +69,11 @@
           ["Lesson5", "Lição 5"],
           ["Lesson6", "Lição 6"],
           ["Lesson7", "Lição 7"],
+          ["Lesson8", "Lição 8"],
+          ["Lesson9", "Lição 9"],
+          ["Lesson10", "Lição 10"],
+          ["Lesson11", "Lição 11"],
+          ["Lesson12", "Lição 12"],
         ],
         selectedLesson: "LessonIntro"
       }
