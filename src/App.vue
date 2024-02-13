@@ -8,7 +8,6 @@
   <div id="content" class="col-10 mx-auto">
     <router-view/>
   </div>
-  <img class="img-fluid" src="@/assets/backgrounds/fire-bottom-removebg-preview.png" width="100%">
 </template>
 
 <script>
@@ -41,6 +40,7 @@ body {
   background-attachment: fixed;
   margin: 0;
   padding: 0;
+  //text-indent: 40px;
 }
 
 #app {
@@ -95,17 +95,17 @@ nav {
 
     &.router-link-exact-active {
       text-shadow: 
-        0 0 2px #C0C0C072,
-        0 0 2px #C0C0C072,
-        0 0 4px #C0C0C072,
-        0 0 4px #C0C0C072;
+        0 0 2px #b7777772,
+        0 0 2px #b7777772,
+        0 0 4px #b7777772,
+        0 0 4px #b7777772;
       color: #FFFF6E;
     }
 
     &:hover {
       text-shadow: 
-        0 0 2px #FFFF6E72,
-        0 0 2px #FFFF6E72,
+        0 0 2px #FFFFFF72,
+        0 0 2px #FFFFFF72,
         0 0 4px #FFFF6E72,
         0 0 4px #FFFF6E72;
       color: #FAFAFA;
